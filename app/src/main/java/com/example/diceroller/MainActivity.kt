@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
 
-        //Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show()
+        //Toast.makeText(this, "Button clicke", Toast.LENGTH_SHORT).show()
         diceImage = findViewById(R.id.dice_image)
         diceImage.setImageResource(drawableResource)
 
